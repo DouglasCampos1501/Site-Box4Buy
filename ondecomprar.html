@@ -1,0 +1,554 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Box4Buy</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Global Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Core Stylesheets -->
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/careers.css">
+</head>
+<body id="page-top">
+    <!--====================================================
+                                 HEADER
+        ======================================================-->
+    <header>
+        <!-- Top Navbar  -->
+        <div class="top-menubar">
+            <div class="topmenu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <ul class="list-inline top-contacts">
+                                <li>
+                                    <i class="fa fa-envelope"></i> Email: <a href="mailto:info@box4buy.com">info@box4buy.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-whatsapp"></i> Whatsapp: +1 (770) 899-6392
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+
+                            <ul class="list-inline top-data">
+                                <a>Siga-nos</a>
+                                <li><a href="#" target="_empty"><i class="fa top-social fa-facebook"></i></a></li>
+                                <li><a href="#" target="_empty"><i class="fa top-social fa-twitter"></i></a></li>
+                                <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" data-toggle="affix">
+            <div class="container">
+                <a class="navbar-brand smooth-scroll" href="index.html">
+                    <img src="img/logo-s.png" alt="logo">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="duvidas.html">Dúvidas</a></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="pagamentos.html">Pagamentos</a></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="ondecomprar.html">Onde Comprar?</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link smooth-scroll" data-toggle="modal" data-target="#login-modal">ÁREA DO CLIENTE</a></li>
+                        <li>
+                            <div class="top-menubar-nav">
+                                <div class="topmenu ">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <ul class="list-inline top-contacts">
+                                                    <li>
+                                                        <i class="fa fa-envelope"></i> Email: <a href="mailto:info@box4buy.com">info@box4buy.com</a>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-whatsapp"></i> Whatsapp: +1 (770) 899-6392
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <ul class="list-inline top-data">
+                                                    <li><a href="#" target="_empty"><i class="fa top-social fa-facebook"></i></a></li>
+                                                    <li><a href="#" target="_empty"><i class="fa top-social fa-twitter"></i></a></li>
+                                                    <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus"></i></a></li>
+                                                    <li><a href="#" class="log-top" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--====================================================
+                       LOGIN E REGISTRO
+    ======================================================-->
+    <section id="login">
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" align="center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="fa fa-times" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <h3 class="text-center">ÁREA DO CLIENTE</h3>
+                            <div class="modal-body">
+                                <label for="username">Usuário</label>
+                                <input id="login_username" class="form-control" type="text" placeholder="Nome " required>
+                                <label for="username">Senha</label>
+                                <input id="login_password" class="form-control" type="password" placeholder="Senha" required>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Lembrar senha
+                                    </label>
+                                    <br />
+                                    <a href="#">Esqueci minha senha</a>
+                                </div>
+                            </div>
+                            <div class="modal-footer text-center">
+                                <div>
+                                    <button type="submit" class="btn btn-general btn-white">ENTRAR</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer text-center">
+                                <div>
+                                    <a>Não é registrado ainda?</a>&nbsp;&nbsp;
+                                    <button id="login_register_btn" type="button" class="btn btn-link">CADASTRAR</button>
+                                </div>
+                            </div>
+                        </form>
+                        <form id="register-form" style="display:none;">
+                            <h3 class="text-center">CADASTRO</h3>
+                            <div class="modal-body">
+                                <label for="username">Usuário</label>
+                                <input id="register_username" class="form-control" type="text" placeholder="Usuário a ser cadastrado" required>
+                                <label for="register_email">e-mail</label>
+                                <input id="register_email" class="form-control" type="text" placeholder="e-mail para cadastro" required>
+                                <label for="register_password">Senha</label>
+                                <input id="register_password" class="form-control" type="password" placeholder="Sua senha" required>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <button type="submit" class="btn btn-general btn-white">CADASTRAR</button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <a>Já tem cadastro?</a>&nbsp;&nbsp;
+                                    <button id="register_login_btn" type="button" class="btn btn-link">ENTRAR</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====================================================
+                           HOME-P
+    ======================================================-->
+    <div id="home-p" class="home-p pages-head1 text-center">
+        <div class="container">
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">EM QUE LOJA COMPRAR</h1>
+            <p>Alguns sites que você pode fazer suas pesquisas e efetuar suas compras.</p>
+        </div>
+        <!--/end container-->
+    </div>
+    <!--====================================================
+                            ABOUT-P1
+    ======================================================-->
+    <div class="overlay-career-p3"></div>
+    <section id="career-p3">
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">AUTO E MOTO</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.rockauto.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/rockauto.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.cyclegear.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/ciclegear.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">BEBÊ E ACESSÓRIOS</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="http://www.carters.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/carters.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.toysrus.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/toysrus.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center">
+                    <a href="https://www.buybuybaby.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/buybuy.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">COSMÉTICOS E MAQUIAGEM</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.walgreens.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/walgreens.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.victoriassecret.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/victoriasecret.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center">
+                    <a href="https://www.sephora.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/sephora.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">GAMES</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.gamestop.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/gamestop.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">INFORMÁTICA</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.apple.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/apple.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.bestbuy.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/bestbuy.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">INSTRUMENTOS MUSICAIS</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.guitarcenter.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/guitarcenter.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">LOJAS DE DEPARTAMENTOS</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.amazon.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/amazon.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.ebay.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/ebay.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center">
+                    <a href="https://www.walmart.com.br/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/walmart.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center">
+                    <a href="https://www.macys.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/macys.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center">
+                    <a href="https://www.target.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/target.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">RELÓGIOS E ACESSÓRIOS</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.worldofwatches.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/wordofwatches.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.jomashop.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/jomashop.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">ROUPAS E ACESSÓRIOS</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="http://www.aeropostale.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/aeropostale.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://usa.tommy.com/en" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/tommy.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center">
+                    <a href="https://www.ae.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/americnagle.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">ESPORTES</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.eastbay.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/eastybay.png" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="row career-p3-title">
+            <div class="col-md-12">
+                <h3 class="text-center">SUPLEMENTOS</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.vitacost.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/vitacost.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="career-p3-cont text-center formatBox">
+                    <a href="https://www.samedaysupplements.com/" class="h5Style" target="_blank">
+                        <img src="img/lojaComprar/samedays.jpg" />
+                        <br />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================================================
+                          FOOTER
+    ======================================================-->
+    <footer>
+        <div id="footer-s1" class="footer-s1">
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- About Us -->
+                        <div class="col-md-4 col-sm-6 ">
+                            <div><img src="img/logo-w.png" alt="" class="img-fluid"></div>
+                            <ul class="list-unstyled comp-desc-f">
+                                <li><p>A <strong>Box4Buy</strong> é uma empresa de redirecionamento de encomendas dos EUA</p></li>
+                            </ul><br>
+                        </div>
+                        <!-- End About Us -->
+                        <!-- Recent News -->
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="heading-footer"><h2>Links</h2></div>
+                            <ul class="list-unstyled link-list">
+                                <li><a href="sobre.html">SOBRE</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="duvidas.html">DÚVIDAS</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="pagamentos.html">PAGAMENTOS</a><i class="fa fa-angle-right"></i></li>
+                            </ul>
+                        </div>
+                        <!-- End Recent list -->
+                        <!-- Latest Tweets -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="heading-footer"><h2>Sobre</h2></div>
+                            <address class="address-details-f">
+                                99, XxXXXxxxXXXxxx <br>
+                                XxXxXx, US <br>
+                                Whatsapp: +1 (770) 899-6392 <br>
+                                Email: <a href="mailto:info@Businessbox.com" class="">info@box4buy.com</a>
+                            </address>
+                        </div>
+                        <!-- End Latest Tweets -->
+                    </div>
+                </div><!--/container -->
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="footer-copyrights">
+                            <p>Copyrights &copy; 2018 All Rights Reserved by <strong><a href="https://devhousesolutions.com.br/">DevHouse Solutions</a></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#page-top" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top smooth-scrolls hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </footer>
+    <!--Global JavaScript -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
